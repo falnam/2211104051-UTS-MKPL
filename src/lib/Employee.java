@@ -5,6 +5,7 @@ import java.time.Month;
 import java.util.LinkedList;
 import java.util.List;
 
+
 public class Employee {
 
 	private String employeeId;
@@ -97,6 +98,8 @@ public class Employee {
     } else {
         monthWorkingInYear = 12;
     }
+
+	// Gunakan EmployeeData dalam konstruktor Employee //
 
     EmployeeData data = new EmployeeData(
         monthlySalary,
