@@ -2,6 +2,28 @@ package lib;
 
 // /** Berikut adalah refactor untuk Employee yang lebih mudah dipahami
 
+/**
+ * EmployeeData digunakan sebagai objek pembungkus (data holder)
+ * untuk menyederhanakan parameter pada konstruktor Employee.
+ * 
+ * Dengan adanya class ini, kita bisa menghindari penggunaan parameter
+ * yang terlalu panjang (long parameter list) dan meningkatkan
+ * keterbacaan serta pemeliharaan kode.
+ *
+ * Ini adalah salah satu teknik refactoring yang dikenal sebagai
+ * "Introduce Parameter Object".
+ *
+ * ---
+ * EmployeeData is a wrapper class (data holder)
+ * used to simplify the constructor parameters in Employee.
+ *
+ * This helps avoid the long parameter list code smell and
+ * improves code readability and maintainability.
+ *
+ * It applies a refactoring technique known as
+ * "Introduce Parameter Object".
+ */
+
 public class EmployeeData {
     public int monthlySalary;
     public int otherMonthlyIncome;
