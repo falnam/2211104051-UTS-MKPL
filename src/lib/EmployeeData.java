@@ -1,5 +1,7 @@
 package lib;
 
+// /** Berikut adalah refactor untuk Employee yang lebih mudah dipahami
+
 public class EmployeeData {
     public int monthlySalary;
     public int otherMonthlyIncome;
